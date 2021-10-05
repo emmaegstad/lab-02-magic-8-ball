@@ -2,10 +2,11 @@
 
 body {
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr 2fr;
+    grid-gap: 25px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    padding: 100px 100px;
     background: radial-gradient(
         circle,
         rgba(63, 94, 251, 1) 0%,
@@ -49,6 +50,17 @@ body {
     justify-content: center;
 }
 
+.question-area {
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 500px;
+    padding: 15px;
+    color: white;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #3f5efb;
+}
+
 .question-button {
     justify-self: center;
     width: 6vw;
@@ -63,8 +75,9 @@ body {
 
 .answer {
     text-align: center;
-    font-size: 5vh;
-    width: 1000px;
+    font-size: 3vh;
+    margin: 50px;
+    height: 500px;
 }
 
 .fade-in {
