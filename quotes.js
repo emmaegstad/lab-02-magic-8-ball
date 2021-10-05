@@ -5,4 +5,11 @@ export const cageQuotes = [
     `I am not a demon. I am a lizard, a shark, a heat-seeking panther. I want to be Bob Denver on acid playing the accordion.`,
     `I don't drink blood, and last time I looked in the mirror, I had a reflection.`,
     `I'm not afraid to play ugly - look at 'Adaptation.' I looked like a turd that a cat had coughed up.`,
-    `I'm sticking my tongue out in scenes to try to make that work in 3D. I'm thinking I'll try to get my tongue all the way out to the second row of the audience.`];
+    `I'm sticking my tongue out in scenes to try to make that work in 3D. I'm thinking I'll try to get my tongue all the way out to the second row of the audience.`,
+    `I'm going to steal the Declaration of Independence.`,
+    `Put... the bunny... back... in the box.`,
+    `You'll be seeing a lot of changes around here. Papa's got a brand new bag.`,
+    `Tool up, honey bunny. It's time to get bad guys.`,
+    `What did I do? You fuck with the bull, you get the horns. That's what I did.`,
+    `I'll be taking these Huggies and whatever cash ya got.`,
+    `I did a bare ass 360 triple back flip in front of twenty two thousand people. It's kind of funny, it's on Youtube, check it out. But when my dad got sick, I did something way crazier than that.`];
