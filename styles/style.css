@@ -30,7 +30,7 @@ body {
     justify-content: center;
 }
 
-button {
+.question-button {
     justify-self: center;
     width: 6vw;
     height: 2vw;

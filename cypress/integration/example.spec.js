@@ -1,12 +1,13 @@
 
-describe('Example Test', ()=>{
-    before(()=>{
+describe('Example Test', () => {
+    before(() => {
         cy.visit('/');
     });
 
-    describe('HTML elements', ()=>{   
-        it('contains the alchemy logo', ()=>{
-            cy.get('.main-logo').should('be.visible');
+    describe('answer appears when button is clicked', () => {
+        it('displays answer when button is clicked', () => {
+            cy.get('.question-button').click();
+            cy.get('.answer').should('be.visible');
         });
     });
 });
