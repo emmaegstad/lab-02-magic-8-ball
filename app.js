@@ -2,7 +2,7 @@ import { cageQuotes } from './quotes.js';
 
 const submitButton = document.querySelector('.question-button');
 const answer = document.querySelector('.answer');
-const FUCK = new Audio('./assets/FUCK.mp3');
+const soundclip = new Audio('./assets/fuuu.mp3');
 
 const getRandomNumber = (max) => {
     return Math.floor(Math.random() * max);
@@ -16,7 +16,7 @@ submitButton.addEventListener('click', () => {
     const randomIdx = getRandomNumber(cageQuotes.length);
     answer.textContent = cageQuotes[randomIdx];
     answer.classList.add('fade-in');
-    FUCK.play();
+    soundclip.play();
 });
 
 answer.addEventListener('animationend', onAnimationEnd);
